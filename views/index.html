@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>Football</title>
+</head>
+<body>
+    <div class="container flex justify-center mx-auto px-4">
+        <div class="shadow-md mx-2 my-1 px-4 py-4">
+            <h1 class="text-xl text-center my-2 font-serif">{{.Title}}</h1>
+            <span class="mx-1 font-serif">⚽(Goals)</span>
+            <span class="mx-1 font-serif">🏆(Trophies)</span>
+            <span class="mx-1 text-sm font-serif rounded-md bg-[#262626] text-white px-1">League</span>
+            <span class="mx-1 font-serif">🏅(League Position)</span>
+            <span class="mx-1 text-sm font-serif rounded-md bg-[#075985] text-white px-1">Club Code</span>
+        </div>
+    </div>
+    <div class="container flex flex-wrap justify-center mx-auto px-4">
+        {{range .Clubs}}
+            <a href="/clubs/{{.Code}}" class="flex content-center items-center shadow-md mx-2 my-1 px-4 py-4 cursor-pointer">
+                <img class="w-12 h-12" src="{{.Avatar}}" alt="Club Logo">
+                <span class="mx-1 font-serif font-medium">{{.Name}}</span>
+                <span class="mx-1 font-serif">⚽({{.Goals}})</span>
+                <span class="mx-1 font-serif">🏆({{.Trophies}})</span>
+                <span class="mx-1 text-sm font-serif rounded-md bg-[#262626] text-white px-1">{{.League}}</span>
+                <span class="mx-1 font-serif">🏅({{.Position}})</span>
+                <span class="mx-1 text-sm font-serif rounded-md bg-[#075985] text-white px-1">{{.Code}}</span>
+            </a>
+        {{end}}
+    </div>
+</body>
+</html>

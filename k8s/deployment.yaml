@@ -1,0 +1,33 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: goapi-deployment
+  labels:
+    app: goapi
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: goapi
+  template:
+    metadata:
+      labels:
+        app: goapi
+    spec:
+      containers:
+      - name: goapi
+        image: public.ecr.aws/f8y3t0j0/goapi:1.0
+        ports:
+        - containerPort: 3000
+---
+apiVersion: v1
+kind: Service
+metadata:
+  name: goapi-service
+spec:
+  selector:
+    app: goapi
+  ports:
+    - protocol: TCP
+      port: 3000
+      targetPort: 3000

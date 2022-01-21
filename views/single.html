@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>{{.club.Name}}</title>
+    <link rel="icon" type="image/x-icon" href="{{.club.Avatar}}">
+</head>
+
+<body>
+    <div class="container flex justify-center mx-auto px-4">
+        <div class="shadow-md mx-2 mt-5 px-4 py-4">
+            <h1 class="text-xl text-center my-2 font-serif">{{.club.Name}} ({{.club.Code}})</h1>
+            <img class="mx-auto w-24 h-24" src="{{.club.Avatar}}" alt="Club Logo">
+            <span class="mx-1 font-serif">⚽Goals ({{.club.Goals}})</span> |
+            <span class="mx-1 font-serif">🏆Trophies ({{.club.Trophies}})</span> |
+            <span class="mx-1 text-sm font-serif rounded-md bg-[#262626] text-white px-1">{{.club.League}}</span> |
+            <span class="mx-1 font-serif">🏅Position ({{.club.Position}})</span>
+        </div>
+    </div>
+</body>
+
+</html>

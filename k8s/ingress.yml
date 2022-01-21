@@ -1,0 +1,19 @@
+apiVersion: networking.k8s.io/v1
+kind: Ingress
+metadata:
+  name: goapi-ingress
+spec:
+  tls:
+  - hosts:
+      - dashboard.com
+  rules:
+  - host: dashboard.com
+    http:
+      paths:
+      - backend:
+          service:
+            name: goapi-service
+            port:
+              number: 3000
+        pathType: Prefix
+        path: /

@@ -1,0 +1,119 @@
+[
+    {
+        "name": "Chelsea FC",
+        "goals": 54,
+        "avatar": "https://res.cloudinary.com/chelsea-production/image/upload/c_fill,dpr_auto,f_auto,fl_lossy,g_auto,h_54,q_auto,w_54,z_1.0/v1/logos/rgb-mar18.png",
+        "trophies": 34,
+        "league": "Premier League",
+        "position": 1,
+        "code": "CHE"
+    },
+    {
+        "name": "Manchester United",
+        "goals": 54,
+        "avatar": "https://assets.manutd.com/AssetPicker/images/0/0/3/2/197240/Header-Logo1500994616801.png",
+        "trophies": 34,
+        "league": "Premier League",
+        "position": 1,
+        "code": "MUN"
+    },
+    {
+        "name": "Manchester City",
+        "goals": 54,
+        "avatar": "https://web-assets.mancity.com/dist/images/logos/crest.svg",
+        "trophies": 34,
+        "league": "Premier League",
+        "position": 1,
+        "code": "MNC"
+    },
+    {
+        "name": "Liverpool",
+        "goals": 54,
+        "avatar": "https://www.liverpoolfc.com/liverpoolfc_crest.png",
+        "trophies": 34,
+        "league": "Premier League",
+        "position": 1,
+        "code": "LIV"
+    },
+    {
+        "name": "Barcelona",
+        "goals": 54,
+        "avatar": "https://ssl.gstatic.com/onebox/media/sports/logos/paYnEE8hcrP96neHRNofhQ_96x96.png",
+        "trophies": 34,
+        "league": "La Liga",
+        "position": 1,
+        "code": "BAR"
+    },
+    {
+        "name": "Athletico Madrid",
+        "goals": 54,
+        "avatar": "https://ssl.gstatic.com/onebox/media/sports/logos/srAAE0bOnCppUrlbJpFiHQ_96x96.png",
+        "trophies": 34,
+        "league": "La Liga",
+        "position": 1,
+        "code": "PSG"
+    },
+    {
+        "name": "Real Madrid",
+        "goals": 54,
+        "avatar": "https://ssl.gstatic.com/onebox/media/sports/logos/Th4fAVAZeCJWRcKoLW7koA_96x96.png",
+        "trophies": 34,
+        "league": "La Liga",
+        "position": 1,
+        "code": "RMD"
+    },
+    {
+        "name": "Bayern Munich",
+        "goals": 54,
+        "avatar": "https://ssl.gstatic.com/onebox/media/sports/logos/-_cmntP5q_pHL7g5LfkRiw_96x96.png",
+        "trophies": 34,
+        "league": "Bundesliga",
+        "position": 1,
+        "code": "BAY"
+    },
+    {
+        "name": "Paris Saint Germain",
+        "goals": 54,
+        "avatar": "https://ssl.gstatic.com/onebox/media/sports/logos/mcpMspef1hwHwi9qrfp4YQ_96x96.png",
+        "trophies": 34,
+        "league": "Ligue 1",
+        "position": 1,
+        "code": "PSG"
+    },
+    {
+        "name": "Tottenham",
+        "goals": 54,
+        "avatar": "https://ssl.gstatic.com/onebox/media/sports/logos/k3Q_mKE98Dnohrcea0JFgQ_96x96.png",
+        "trophies": 34,
+        "league": "Ligue 1",
+        "position": 1,
+        "code": "TOT"
+    },
+    {
+        "name": "Borussia Dortmund",
+        "goals": 54,
+        "avatar": "https://ssl.gstatic.com/onebox/media/sports/logos/FZnTSH2rbHFos4BnlWAItw_96x96.png",
+        "trophies": 34,
+        "league": "Ligue 1",
+        "position": 1,
+        "code": "DOR"
+    },
+    {
+        "name": "Arsenal",
+        "goals": 54,
+        "avatar": "https://ssl.gstatic.com/onebox/media/sports/logos/4us2nCgl6kgZc0t3hpW75Q_96x96.png",
+        "trophies": 34,
+        "league": "Ligue 1",
+        "position": 1,
+        "code": "ARS"
+    },
+    {
+        "name": "Sevilla",
+        "goals": 54,
+        "avatar": "https://ssl.gstatic.com/onebox/media/sports/logos/hCTs5EX3WjCMC5Jl3QE4Rw_96x96.png",
+        "trophies": 34,
+        "league": "Ligue 1",
+        "position": 1,
+        "code": "SEV"
+    }
+]
